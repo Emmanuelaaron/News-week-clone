@@ -1,0 +1,85 @@
+.container {
+  margin: 0 auto;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+header {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  padding: 0;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #f72210;
+  border: none;
+  width: 150px;
+}
+
+.list-bk-color {
+  background-color: #fff;
+  padding-left: 0;
+}
+
+.list-bk-color li {
+  list-style: none;
+}
+
+.search-input {
+  background-image: url('https://g.newsweek.com/www/images/icon-search-glass.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: 24px 24px;
+  height: 32px;
+  border: none;
+  width: 90px;
+  margin-left: 10px;
+}
+
+nav {
+  border-bottom: 1px solid rgb(231, 230, 230);
+}
+
+h2 {
+  color: rgba(3,3,3,.4);
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.nav-link {
+  border-right: 1px solid rgb(231, 230, 230);
+  color: black;
+  padding: 10px;
+}
+
+.transparent {
+  border-right: transparent;
+}
+
+.nav-item {
+  /* padding-right: 10px; */
+}
+
+svg {
+  fill: #fff;
+}
+
+.trapezium {
+  color: black;
+  width: 120px;
+  border-top: #f72210 20px solid;
+  border-left: #fff 20px solid;
+  margin-left: 41.5px;
+}
