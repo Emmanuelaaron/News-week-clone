@@ -2,6 +2,11 @@
   margin: 0 auto;
 }
 
+body {
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .bg-red {
   background-color: #f72210;
 }
@@ -48,14 +53,20 @@ nav {
 }
 
 h2 {
-  color: rgba(3,3,3,.4);
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 h3 {
   font-size: 24px;
   line-height: 24px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h5 {
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .nav-link {
@@ -68,8 +79,9 @@ h3 {
   border-right: transparent;
 }
 
-.nav-item {
-  /* padding-right: 10px; */
+.list-item {
+  height: 134px;
+  padding: 20px 0;
 }
 
 svg {
