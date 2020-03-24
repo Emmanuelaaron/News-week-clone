@@ -123,3 +123,34 @@ svg {
 .img4 {
   background-image: url('https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410');
 }
+
+.debate {
+  border-top: rgb(231, 17, 60) 6px solid;
+}
+
+.blue-color {
+  border-top: rgb(107, 184, 209) 6px solid;
+}
+
+.debate img {
+  max-width: 133px;
+  height: 95px;
+}
+
+.double-line {
+  border-top: grey double 5px;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+.double-line img {
+  width: 75px;
+  height: 75px;
+  margin-top: -20px;
+}
+
+.latest-news {
+  border-top: lightgray 1px solid;
+}
