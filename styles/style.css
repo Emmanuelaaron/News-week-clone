@@ -154,3 +154,23 @@ h6 {
 .latest-news {
   border-top: lightgray 1px solid;
 }
+
+.icon {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.sign-up-section {
+  background-color: lightgray;
+}
+
+.sign-up-btn {
+  background-color: #666;
+  border: none;
+  color: aliceblue;
+}
+
+.min-content-height {
+  height: min-content;
+}
