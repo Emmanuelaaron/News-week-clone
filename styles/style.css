@@ -1,5 +1,6 @@
 .container {
   margin: 0 auto;
+  max-width: 1303px;
 }
 
 body {
@@ -94,4 +95,31 @@ svg {
   border-top: #f72210 20px solid;
   border-left: #fff 20px solid;
   margin-left: 41.5px;
+}
+
+.option-element {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  line-height: 20px;
+}
+
+.head-shot {
+  width: 63px;
+  height: 63px;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url('https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569');
+}
+
+.img2 {
+  background-image: url('https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832');
+}
+
+.img3 {
+  background-image: url('https://d.newsweek.com/en/full/1575395/richard-rubenstein.webp?w=63&h=63&f=8b87758ea9d3bff05635e4e4ff170093');
+}
+
+.img4 {
+  background-image: url('https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410');
 }
