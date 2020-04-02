@@ -174,3 +174,22 @@ h6 {
 .min-content-height {
   height: min-content;
 }
+
+.magazine {
+  border-bottom: grey 1px solid;
+}
+
+.magazine h2 {
+  color: black;
+}
+
+.h3-magazine {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  background-color: white;
+  color: #f72210;
+}
+
+.cover {
+  background-color: #f72210;
+  color: white;
+}
