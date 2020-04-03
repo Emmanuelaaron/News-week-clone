@@ -195,9 +195,35 @@ h6 {
 }
 
 .h3-editors-pick,
-.h3-featured-slides {
+.h3-featured-slides,
+.h3-us {
   font-size: 24px;
   line-height: 24px;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.h2-bottom {
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.border-top {
+  border-top: grey 1px solid;
+}
+
+.p-side-bar {
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
+  color: black;
+}
+
+.p-side-bar:hover {
+  color: #f72210;
+}
+
+.jared-margin {
+  border-top: grey 1px solid;
+  border-bottom: gray 1px solid;
 }
