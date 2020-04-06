@@ -34,6 +34,14 @@ header {
   padding-left: 0;
 }
 
+.nav-item {
+  margin: 0 auto;
+}
+
+.class {
+  background-color: crimson;
+}
+
 .list-bk-color li {
   list-style: none;
 }
@@ -49,7 +57,7 @@ header {
   margin-left: 10px;
 }
 
-nav {
+.nav {
   border-bottom: 1px solid rgb(231, 230, 230);
 }
 
@@ -63,6 +71,7 @@ h3 {
   font-size: 24px;
   line-height: 24px;
   font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
 }
 
 h5 {
@@ -73,7 +82,12 @@ h5 {
 .nav-link {
   border-right: 1px solid rgb(231, 230, 230);
   color: black;
-  padding: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+}
+  /* padding: 10px; */
 }
 
 .transparent {
@@ -91,10 +105,10 @@ svg {
 
 .trapezium {
   color: black;
-  width: 120px;
-  border-top: #f72210 20px solid;
+  width: 95px;
+  border-top: #f72210 15px solid;
   border-left: #fff 20px solid;
-  margin-left: 41.5px;
+  margin-left: 13.99px;
 }
 
 .option-element {
@@ -227,4 +241,33 @@ h6 {
 .jared-margin {
   border-top: grey 1px solid;
   border-bottom: gray 1px solid;
+}
+
+.subscribe {
+  background-color: #f72210;
+  color: #fff;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+}
+
+.subscribe:hover {
+  background-color: #f72210;
+}
+
+.greyish {
+  background-color: rgb(228, 224, 224);
+}
+
+.h2-subscribe {
+  background-color: white;
+  width: 100%;
+}
+
+.box {
+  border: rgb(184, 183, 183) 1px solid;
+}
+
+.newsletter-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  width: 48%;
+  height: 321px;
 }
