@@ -16,16 +16,9 @@ header {
   color: #fff;
 }
 
-.btn {
-  color: #fff;
-  padding: 0;
-  border-radius: 0;
-}
-
 .btn-primary {
   background-color: #fff;
   color: #f72210;
-  border: none;
   width: 150px;
 }
 
@@ -57,8 +50,9 @@ header {
   margin-left: 10px;
 }
 
-.nav {
-  border-bottom: 1px solid rgb(231, 230, 230);
+.sign-in {
+  font-size: 18px;
+  color: #fff;
 }
 
 h2 {
@@ -80,16 +74,11 @@ h5 {
 }
 
 .nav-link {
-  border-right: 1px solid rgb(231, 230, 230);
   color: black;
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
-}
-
-.transparent {
-  border-right: transparent;
 }
 
 .list-item {
@@ -112,7 +101,6 @@ svg {
 .option-element {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   line-height: 20px;
-  border-bottom: rgb(220, 221, 223) 1px solid;
 }
 
 .option-element div h5 {
@@ -176,10 +164,6 @@ h6 {
   margin-top: -20px;
 }
 
-.latest-news {
-  border-top: lightgray 1px solid;
-}
-
 .icon {
   width: 29px;
   height: 28px;
@@ -198,10 +182,6 @@ h6 {
 
 .min-content-height {
   height: min-content;
-}
-
-.magazine {
-  border-bottom: grey 1px solid;
 }
 
 .magazine h2 {
@@ -236,10 +216,6 @@ h6 {
   text-transform: none;
 }
 
-.border-top {
-  border-top: grey 1px solid;
-}
-
 .p-side-bar {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
@@ -247,11 +223,6 @@ h6 {
 
 .p-side-bar:hover {
   color: #f72210;
-}
-
-.jared-margin {
-  border-top: grey 1px solid;
-  border-bottom: gray 1px solid;
 }
 
 .subscribe {
@@ -271,10 +242,6 @@ h6 {
 .h2-subscribe {
   background-color: white;
   width: 100%;
-}
-
-.box {
-  border: rgb(184, 183, 183) 1px solid;
 }
 
 .newsletter-img {
