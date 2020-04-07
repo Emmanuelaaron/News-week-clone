@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .min-content-height {
+    height: max-content;
+  }
+
+  .sign-up-section {
+    margin: 0 auto;
+  }
+
+  article .image,
+  .border-top div .image {
+    min-width: 90px;
+    max-height: 90px;
+  }
+
+  .border-top div p {
+    max-width: 140px;
+    margin-left: 10px;
+  }
+}

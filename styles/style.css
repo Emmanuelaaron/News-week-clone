@@ -85,9 +85,7 @@ h5 {
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
-  font-family: "Roboto Condensed",sans-serif;
-}
-  /* padding: 10px; */
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .transparent {
@@ -114,6 +112,19 @@ svg {
 .option-element {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   line-height: 20px;
+  border-bottom: rgb(220, 221, 223) 1px solid;
+}
+
+.option-element div h5 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.option-element div p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
 }
 
 .head-shot {
