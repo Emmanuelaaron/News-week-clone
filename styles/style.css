@@ -24,15 +24,11 @@ header {
 
 .list-bk-color {
   background-color: #fff;
-  padding-left: 0;
+  padding: 0;
 }
 
 .nav-item {
   margin: 0 auto;
-}
-
-.class {
-  background-color: crimson;
 }
 
 .list-bk-color li {
@@ -47,7 +43,6 @@ header {
   height: 32px;
   border: none;
   width: 90px;
-  margin-left: 10px;
 }
 
 .sign-in {
@@ -92,10 +87,9 @@ svg {
 
 .trapezium {
   color: black;
-  width: 95px;
+  width: 94px;
   border-top: #f72210 15px solid;
   border-left: #fff 20px solid;
-  margin-left: 13.99px;
 }
 
 .option-element {

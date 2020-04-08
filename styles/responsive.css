@@ -21,4 +21,10 @@
     max-width: 140px;
     margin-left: 10px;
   }
+
+  .disappear,
+  .search-input,
+  .trapezium {
+    display: none;
+  }
 }
