@@ -10,15 +10,15 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles/responsive.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 
 <body class="container">
   <header class="row border-bottom">
-    <div class="row col-12 pt-md-2 pb-md-3 pt-lg-5 pb-lg-3 bg-red justify-content-around">
+    <div class="d-flex col-12 pt-md-2 pb-md-3 pt-lg-5 pb-lg-3 bg-red justify-content-around flex-nowrap">
       <div class="col-4 d-none d-lg-flex align-items-center">Thu, Mar 19, 2020</div>
-      <div class="col-4">
+      <div class="col-sm-6 col-md-4 col-lg-4 color">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
           <g>
@@ -28,15 +28,15 @@
           </g>
         </svg>
       </div>
-      <div class="col-md-8 col-lg-4 d-flex justify-content-end align-items-center pb-lg-1">
+      <div class="col-sm-6 pip col-md-8 col-lg-4 d-flex justify-content-end align-items-center pb-lg-1">
         <button class="btn pr-lg-1 sign-in">SIGNIN</button>
-        <button class="btn btn-primary rounded-0 border">SUBSCRIBE ></button>
+        <button class="btn btn-primary rounded-0 border subscribe-btn"><span class="pl-0">SUBSCRIBE</span></button>
         <div class="d-md-block d-lg-none">
-        <i class="material-icons">menu</i>
-      </div>
+          <i class="material-icons">menu</i>
+        </div>
       </div>
     </div>
-      <div class="col-lg-10 disappear">
+    <div class="col-lg-10 disappear">
       <ul class="col-lg-12 mr-2 d-flex justify-content-between list-bk-color mt-1">
         <li class="nav-item">
           <a href="#" class="nav-link border-right">U.S.</a>
@@ -73,60 +73,441 @@
         </li>
       </ul>
     </div>
-      <input type="text" placeholder="Search" class="col-lg-1 search-input mt-lg-2">
-      <div class="col-lg- trapezium"></div>
+    <input type="text" placeholder="Search" class="col-lg-1 search-input mt-lg-2">
+    <div class="col-lg- trapezium"></div>
   </header>
-  <main class="container-fluid mt-md-4">
+  <main class="container-fluid mt-md-4 p-0">
     <div class="row">
-        <div class="row col-lg-8">
-          <section class="col-md-5 col-lg-4 min-content-height sticky-top">
-            <h2>FEATURED STORIES</h2>
-            <article>
+      <div class="d-flex col-sm-12 col-lg-8 feat order-2 order-md-0">
+        <section class="col-sm-12 col-md-5 col-lg-4 min-content-height sticky-top p-0">
+          <h2>FEATURED STORIES</h2>
+          <article>
+            <img
+              src="https://d.newsweek.com/en/full/1575707/coronavirus.jpg?w=397&h=265&q=90&f=9d411f587ddecef5bee8f0f99ca54eaf"
+              alt="" class="w-100">
+            <h3 class="h3-feature-story">COVID-19 Pandemic Could Cost U.S. $7 Trillion, Professor Estimates</h3>
+            <p class="p-feature-story">"Without vigorous steps, the CDC estimates the COVID-19 will infect 70 to 150 million Americans,"
+              Michael
+              Hicks tells Newsweek. "This would have enormous economic costs."</p>
+          </article>
+          <article>
+            <img
+              src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg?w=397&h=265&q=90&f=899960ae2e480fbe4b567b095d603d01"
+              alt="" class="w-100">
+            <h3 class="h3-feature-story">Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid Coronavirus</h3>
+            <p class="p-feature-story">Ohio's order mandating all residents stay at home will be implemented Monday evening at 11.59 p.m.
+              local
+              time, and is scheduled to end on April 6.</p>
+          </article>
+          <article>
+            <img
+              src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg?w=397&h=265&q=90&f=6f09981a0ba49e99cd98b49fdd5ff2c8"
+              alt="" class="w-100">
+            <h3 class="h3-feature-story">Rand Paul Tests Positive for Coronavirus</h3>
+            <p class="p-feature-story">He expects to be back in the Senate after his quarantine period ends," according to the Kentucky
+              senator's
+              Twitter account.</p>
+          </article>
+        </section>
+        <section class="d-none d-md-block d-lg-block col-md-7 col-lg-8">
+          <h2>top Story</h2>
+          <article>
+            <img
+              src="https://d.newsweek.com/en/full/1575696/donald-trump.jpg?w=591&h=364&f=c4a7be2fe03204b5fb5327dde00d07c9"
+              alt="" class="w-100">
+            <h3>Trump Announces Activation of the National Guard in Worst-Hit COVID-19 States</h3>
+            <p>The federal government has deployed hundreds of tons of supplies from our national stockpile to
+              locations
+              with the greatest need in order to assist in those areas," the president said Sunday.</p>
+          </article>
+          <section class="row">
+            <h2 class="col-12">CULTURE & TRAVEL</h2>
+            <article class="col-md-4 col-lg-4">
               <img
-                src="https://d.newsweek.com/en/full/1575707/coronavirus.jpg?w=397&h=265&q=90&f=9d411f587ddecef5bee8f0f99ca54eaf"
+                src="https://d.newsweek.com/en/full/1574874/spanish-steps-italy.jpg?w=397&h=397&f=ad0f7bdfd3dc9fffc99ae723d926ac32"
                 alt="" class="w-100">
-              <h3>COVID-19 Pandemic Could Cost U.S. $7 Trillion, Professor Estimates</h3>
-              <p>"Without vigorous steps, the CDC estimates the COVID-19 will infect 70 to 150 million Americans,"
-                Michael
-                Hicks tells Newsweek. "This would have enormous economic costs."</p>
+              <h4>Social Distancing Around the World in Photos</h4>
+              <p>From Rome's desolate Spanish Steps to New York's deserted Times Square, take a look at some of the
+                world's
+                busiest landmarks that are all now but eerily empty.</p>
             </article>
-            <article>
+            <article class="col-md-4 col-lg-4">
               <img
-                src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg?w=397&h=265&q=90&f=899960ae2e480fbe4b567b095d603d01"
+                src="https://d.newsweek.com/en/full/1575422/breakfast-lunch-dinner.webp?w=397&h=397&f=a6dbd65ad3ba41063a6b46b1f92b7a60"
                 alt="" class="w-100">
-              <h3>Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid Coronavirus</h3>
-              <p>Ohio's order mandating all residents stay at home will be implemented Monday evening at 11.59 p.m.
-                local
-                time, and is scheduled to end on April 6.</p>
+              <h4>Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</h4>
+              <p>Travelers can still explore the world while binge-watching these travel TV shows in home isolation.
+                Thanks
+                to streaming services, we can virtually send ourselves to nearly any and every part of the planet in
+                just a
+                few clicks.</p>
             </article>
-            <article>
+            <article class="col-md-4 col-lg-4">
               <img
-                src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg?w=397&h=265&q=90&f=6f09981a0ba49e99cd98b49fdd5ff2c8"
+                src="https://d.newsweek.com/en/full/1574573/taj-mahal.webp?w=397&h=397&f=6059c9040fd468ee41988930ca76f210"
                 alt="" class="w-100">
-              <h3>Rand Paul Tests Positive for Coronavirus</h3>
-              <p>He expects to be back in the Senate after his quarantine period ends," according to the Kentucky
-                senator's
-                Twitter account.</p>
+              <h4>You Can Still See the World With These Virtual Tours</h4>
+              <p>What to do with the free time available when trips to the movies, a museum or the theater are out of
+                the
+                question? Here is a list of museums and other popular tourist attractions that have entire collections
+                or
+                performances available online.</p>
             </article>
           </section>
-          <section class="col-md-7 col-lg-8">
-            <h2>top Story</h2>
-            <article>
+          <section class="row">
+            <h2 class="col-lg-12">more stories</h2>
+            <article class="col-lg-12 d-flex list-item mb-md-4">
               <img
-                src="https://d.newsweek.com/en/full/1575696/donald-trump.jpg?w=591&h=364&f=c4a7be2fe03204b5fb5327dde00d07c9"
-                alt="" class="w-100">
-              <h3>Trump Announces Activation of the National Guard in Worst-Hit COVID-19 States</h3>
-              <p>The federal government has deployed hundreds of tons of supplies from our national stockpile to
-                locations
-                with the greatest need in order to assist in those areas," the president said Sunday.</p>
+                src="https://d.newsweek.com/en/full/1575712/usns-mercy.jpg?w=95&h=95&f=9a1d7c17368b531a164e9b8d04f845d8"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-md-8 col-lg-9">
+                <h5>Navy Hospital Ship USNS Mercy Deployed to L.A. to Help COVID-19 Patients</h5>
+                <p>The vessel, which has been docked in San Diego, will now make its way up the West Coast to provide
+                  1,000
+                  beds.</p>
+              </div>
             </article>
-            <section class="row">
+            <article class="col-lg-12 d-flex list-item">
+              <img
+                src="https://d.newsweek.com/en/full/1575710/tokyo-2020-coronavirus.webp?w=95&h=95&f=6824cbb15f744728fc0a88501d951e90"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-8">
+                <h5>Japan's PM Says 'We May Have No Option' but to Consider Postponing Olympics</h5>
+                <p>Tokyo Olympics organizers and the IOC are under mounting pressure to postpone the Games due the
+                  coronavirus outbreak.</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-5">
+              <img
+                src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.webp?w=95&h=95&f=070745ab8ef2208b3f6b76bbe55abc8b"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</h5>
+                <p>The country has reported more than 26,700 confirmed cases of the new coronavirus</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item">
+              <img
+                src="https://d.newsweek.com/en/full/1575678/angela-merkel.webp?w=95&h=95&f=912a4e403b6a9a348a4f712010af9410"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Angela Merkel Has Entered Quarantine Over Coronavirus Concern</h5>
+                <p>Even from domestic quarantine, the Chancellor will continue her official business," the German
+                  leader's
+                  spokesperson said</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-5">
+              <img
+                src="https://d.newsweek.com/en/full/1575662/alexandria-ocasio-cortez.webp?w=95&h=95&f=3799e5dd3152d9b649d5824cc1c163b8"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>AOC: Trump Is 'Going to Cost Lives' by Not Using Defense Production Act</h5>
+                <p>We cannot wait until people start really dying in large numbers," the progressive Democrat from New
+                  York
+                  warned.</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mb-md-4">
+              <img
+                src="https://d.newsweek.com/en/full/1575656/steve-mnuchin-coronavirus-economic-stimulus.webp?w=95&h=95&f=06471a18c890c408f2b243fb7269d9fa"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Who Will Receive Coronavirus Economic Relief Benefits? Treasury Sec Details</h5>
+                <p>Steve Mnuchin laid out how Americans are likely set to receive more than $2 trillion in economic
+                  stimulus
+                  funds that the federal government is dispersing as a "bridge to get through" coronavirus shutdowns.
+                </p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-5 pt-md-5">
+              <img
+                src="https://d.newsweek.com/en/full/1574965/walter-ogrod.webp?w=95&h=95&f=ff59f72938b083fa799a88d7736efe8d"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Pennsylvania Court Orders Death Row Inmate Get Coronavirus Test</h5>
+                <p>Walter Ogrod's lawyers had filed an emergency motion after the 55-year-old developed a high fever,
+                  cough
+                  and had difficulties breathing, but wasn't tested for COVID-19.</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-5">
+              <img
+                src="https://d.newsweek.com/en/full/1575677/pritzker.webp?w=95&h=95&f=d92cbd3981d7a34644bcf9c6efcb60b0"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Illinois Governor Pritzker Tells Trump to 'Get Off Twitter & Do Your Job'</h5>
+                <p>"You wasted precious months when you could've taken action to protect Americans & Illinoisans,"
+                  Pritzker
+                  said</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-4">
+              <img
+                src="https://d.newsweek.com/en/full/1575559/hand-sanitizer.webp?w=95&h=95&f=af5e9935bbff7640af192a9ea3335c17"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Global Coronavirus Death Toll Now Exceeds 11,500</h5>
+                <p>Hospitals struggle to cope in Italy, bars and restaurants in the U.K. have been closed, and the
+                  European
+                  Union allows member states to spend as much as they need to combat the virus.</p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-4">
+              <img
+                src="https://d.newsweek.com/en/full/1575683/cameron-van-der-burgh.webp?w=95&h=95&f=f32400a2feb313f893bde85415bf19ee"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Olympic Champion Swimmer Diagnosed With Coronavirus Calls It 'Worse Virus'</h5>
+                <p>Cameron van der Burgh, the Olympic gold medalist in the 100-meter breaststroke in 2012 and silver
+                  medalist in 2016, talks about his physical struggles during his 14th day in battling coronavirus.
+                </p>
+              </div>
+            </article>
+            <article class="col-lg-12 d-flex list-item mt-md-5">
+              <img
+                src="https://d.newsweek.com/en/full/1575653/mark-desaulnier.webp?w=95&h=95&f=a5f032524f180168dbb027d89c86a6cd"
+                alt="" class="w-100 h-100 col-md-4 col-lg-3">
+              <div class="col-lg-9">
+                <h5>Congressman Mark DeSaulnier in Critical Condition With Pneumonia</h5>
+                <p>The doctors are doing everything they can to care for the Congressman," the representative's office
+                  said
+                  in a statement.</p>
+              </div>
+            </article>
+          </section>
+        </section>
+      </div>
+      <div class="col-sm-12 d-md-none mt-2 p-0">
+        <section class="col-12 mt-2">
+          <h2>top Story</h2>
+          <article>
+            <img
+              src="https://d.newsweek.com/en/full/1575696/donald-trump.jpg?w=591&h=364&f=c4a7be2fe03204b5fb5327dde00d07c9"
+              alt="" class="w-100">
+            <h3 class="h3-top-story">Trump Announces Activation of the National Guard in Worst-Hit COVID-19 States</h3>
+            <p class="p-top-story">The federal government has deployed hundreds of tons of supplies from our national stockpile to
+              locations
+              with the greatest need in order to assist in those areas," the president said Sunday.</p>
+          </article>
+        </section>
+      </div>
+      <div class="col-lg-4 mt-md-5 mt-lg-1 order-3 ">
+        <section class="col-lg-12 min-content-height sticky-top opinion p-0">
+          <h2>opinion</h2>
+          <article class="col-lg-12 d-flex justify-content-start option-element border-bottom p-0">
+            <div class="col-lg-3 head-shot img1"></div>
+            <div class="col-lg-9 p-0">
+              <h5>In Israel, the Pandemic Is a Slow-Motion Car Crash</h5>
+              <p class="p-3">BY MARC SCHULMAN</p>
+            </div>
+          </article>
+          <article class="col-lg-12 d-flex justify-content-start option-element pt-2 border-bottom p-0">
+            <div class="col-lg-3 head-shot img2"></div>
+            <div class="col-lg-9 p-0">
+              <h5>Coronavirus Is Corporations' Chance to Prove Their Worth to Communities</h5>
+              <p class="p-3">BY ANDREW FORMAN</p>
+            </div>
+          </article>
+          <article class="col-lg-12 d-flex justify-content-start option-element pt-2 border-bottom p-0">
+            <div class="col-lg-3 head-shot img3"></div>
+            <div class="col-lg-9 p-0">
+              <h5>Bernie's Campaign Was All Policy. His Values Were a Better Rallying Cry</h5>
+              <p class="p-3">BY RICHARD E</p>
+            </div>
+          </article>
+          <article class="col-lg-12 d-flex justify-content-start option-element pt-2 border-bottom p-0">
+            <div class="col-lg-3 head-shot img4"></div>
+            <div class="col-lg-9 p-0">
+              <h5>The Ethics of the Coronavirus Crisis Are Muddier Than You Think</h5>
+              <p class="p-3">BY CHARLIE KIRK</p>
+            </div>
+          </article>
+          <section class="mt-5">
+            <h2>the debate</h2>
+            <article class="col-lg-12 debate d-flex align-items-center justify-content-start flex-wrap pl-lg-0">
+              <div class="d-flex ">
+              <img
+                src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                alt="" class="w-25 pl-lg-0 mr-3">
+              <p class="w-75 pl-lg-4 mt-2">Biden's Runninan Entire State, Not Just a Constituency
+              </p>
+            </div>
+              <div class="w-100 double-line mt-3 d-flex justify-content-between">
+                <h6>by peter roff</h6>
+                <img
+                  src="https://d.newsweek.com/en/full/1528785/roff-new.webp?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a" 
+                  id="smaller" alt="">
+              </div>
+            </article>
+            <article class="col-lg-12 debate blue-color d-flex align-items-center justify-content-start flex-wrap pl-lg-0 mt-lg-5">
+              <div class="d-flex">
+              <img
+                src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.webp?w=397&h=265&f=f90d6b535ea0fcac3ae722c195fdf784"
+                alt="" class="w-25 pl-lg-0 mr-3">
+              <p class="w-75 pl-lg-4 mt-2">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency
+              </p>
+            </div>
+              <div class="w-100 double-line mt-lg-3 d-flex justify-content-between">
+                <h6>BY AIMEE ALLISONf</h6>
+                <img
+                  src="https://d.newsweek.com/en/full/1565352/aimee-allison.webp?w=150&h=150&f=ae41d00ed12c8a0c6447a34ea3da29d0"
+                  id="smallerr" alt="">
+              </div>
+            </article>
+
+            <section class="row d-md-none">
+              <h2 class="col-lg-12">more stories</h2>
+              <article class="col-lg-12 d-flex list-item mb-md-4 flex-column mb-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575712/usns-mercy.jpg?w=95&h=95&f=9a1d7c17368b531a164e9b8d04f845d8"
+                  alt="" class="w-100 h-100 col-sm-2 col-md-4 col-lg-3">
+                  <h5>Navy Hospital Ship USNS Mercy Deployed to L.A. to Help COVID-19 Patients</h5>
+                </div>
+                <div class="col-md-8 col-lg-9">
+                  <p>The vessel, which has been docked in San Diego, will now make its way up the West Coast to provide
+                    1,000
+                    beds.</p>
+                </div>
+                
+              </article>
+              <article class="col-lg-12 d-flex list-item  flex-column mb-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575710/tokyo-2020-coronavirus.webp?w=95&h=95&f=6824cbb15f744728fc0a88501d951e90"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Japan's PM Says 'We May Have No Option' but to Consider Postponing Olympics</h5>
+                </div>
+                <div class="col-lg-8">
+                  <p>Tokyo Olympics organizers and the IOC are under mounting pressure to postpone the Games due the
+                    coronavirus outbreak.</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-5 flex-column mb-5 mt-4">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.webp?w=95&h=95&f=070745ab8ef2208b3f6b76bbe55abc8b"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>The country has reported more than 26,700 confirmed cases of the new coronavirus</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item flex-column mb-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575678/angela-merkel.webp?w=95&h=95&f=912a4e403b6a9a348a4f712010af9410"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Angela Merkel Has Entered Quarantine Over Coronavirus Concern</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>Even from domestic quarantine, the Chancellor will continue her official business," the German
+                    leader's
+                    spokesperson said</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-5 flex-column mb-5 mt-4">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575662/alexandria-ocasio-cortez.webp?w=95&h=95&f=3799e5dd3152d9b649d5824cc1c163b8"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>AOC: Trump Is 'Going to Cost Lives' by Not Using Defense Production Act</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>We cannot wait until people start really dying in large numbers," the progressive Democrat from New
+                    York
+                    warned.</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mb-md-4 flex-column mb-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575656/steve-mnuchin-coronavirus-economic-stimulus.webp?w=95&h=95&f=06471a18c890c408f2b243fb7269d9fa"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Who Will Receive Coronavirus Economic Relief Benefits? Treasury Sec Details</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>Steve Mnuchin laid out how Americans are likely set to receive more than $2 trillion in economic
+                    stimulus
+                    funds that the federal government is dispersing as a "bridge to get through" coronavirus shutdowns.
+                  </p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-5 pt-md-5 flex-column mb-5 mt-5 pt-4">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1574965/walter-ogrod.webp?w=95&h=95&f=ff59f72938b083fa799a88d7736efe8d"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Pennsylvania Court Orders Death Row Inmate Get Coronavirus Test</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>Walter Ogrod's lawyers had filed an emergency motion after the 55-year-old developed a high fever,
+                    cough
+                    and had difficulties breathing, but wasn't tested for COVID-19.</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-5 flex-column mb-5 mt-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575677/pritzker.webp?w=95&h=95&f=d92cbd3981d7a34644bcf9c6efcb60b0"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Illinois Governor Pritzker Tells Trump to 'Get Off Twitter & Do Your Job'</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>"You wasted precious months when you could've taken action to protect Americans & Illinoisans,"
+                    Pritzker
+                    said</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-4 flex-column mb-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575559/hand-sanitizer.webp?w=95&h=95&f=af5e9935bbff7640af192a9ea3335c17"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Global Coronavirus Death Toll Now Exceeds 11,500 in the year 2020 try jdhu</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>Hospitals struggle to cope in Italy, bars and restaurants in the U.K. have been closed, and the
+                    European
+                    Union allows member states to spend as much as they need to combat the virus.</p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-4 flex-column mb-5 mt-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575683/cameron-van-der-burgh.webp?w=95&h=95&f=f32400a2feb313f893bde85415bf19ee"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Olympic Champion Swimmer Diagnosed With Coronavirus Calls It 'Worse Virus'</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>Cameron van der Burgh, the Olympic gold medalist in the 100-meter breaststroke in 2012 and silver
+                    medalist in 2016, talks about his physical struggles during his 14th day in battling coronavirus.
+                  </p>
+                </div>
+              </article>
+              <article class="col-lg-12 d-flex list-item mt-md-5 flex-column mb-5 mt-5 pt-5 pb-5">
+                <div class="d-flex">
+                <img
+                  src="https://d.newsweek.com/en/full/1575653/mark-desaulnier.webp?w=95&h=95&f=a5f032524f180168dbb027d89c86a6cd"
+                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
+                  <h5>Congressman Mark DeSaulnier in Critical Condition With Pneumonia</h5>
+                </div>
+                <div class="col-lg-9">
+                  <p>The doctors are doing everything they can to care for the Congressman," the representative's office
+                    said
+                    in a statement.</p>
+                </div>
+              </article>
+            </section>
+            <section class="row d-md-none mt-5 pt-4">
               <h2 class="col-12">CULTURE & TRAVEL</h2>
               <article class="col-md-4 col-lg-4">
                 <img
                   src="https://d.newsweek.com/en/full/1574874/spanish-steps-italy.jpg?w=397&h=397&f=ad0f7bdfd3dc9fffc99ae723d926ac32"
                   alt="" class="w-100">
-                <h4>Social Distancing Around the World in Photos</h4>
+                <h3 class="h3-top-story mt-3">Social Distancing Around the World in Photos</h3>
                 <p>From Rome's desolate Spanish Steps to New York's deserted Times Square, take a look at some of the
                   world's
                   busiest landmarks that are all now but eerily empty.</p>
@@ -135,7 +516,7 @@
                 <img
                   src="https://d.newsweek.com/en/full/1575422/breakfast-lunch-dinner.webp?w=397&h=397&f=a6dbd65ad3ba41063a6b46b1f92b7a60"
                   alt="" class="w-100">
-                <h4>Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</h4>
+                <h3 class="h3-top-story mt-3">Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</h3>
                 <p>Travelers can still explore the world while binge-watching these travel TV shows in home isolation.
                   Thanks
                   to streaming services, we can virtually send ourselves to nearly any and every part of the planet in
@@ -146,7 +527,7 @@
                 <img
                   src="https://d.newsweek.com/en/full/1574573/taj-mahal.webp?w=397&h=397&f=6059c9040fd468ee41988930ca76f210"
                   alt="" class="w-100">
-                <h4>You Can Still See the World With These Virtual Tours</h4>
+                <h3 class="h3-top-story mt-3">You Can Still See the World With These Virtual Tours</h3>
                 <p>What to do with the free time available when trips to the movies, a museum or the theater are out of
                   the
                   question? Here is a list of museums and other popular tourist attractions that have entire collections
@@ -154,193 +535,10 @@
                   performances available online.</p>
               </article>
             </section>
-            <section class="row">
-              <h2 class="col-lg-12">more stories</h2>
-              <article class="col-lg-12 d-flex list-item mb-md-4">
-                <img
-                  src="https://d.newsweek.com/en/full/1575712/usns-mercy.jpg?w=95&h=95&f=9a1d7c17368b531a164e9b8d04f845d8"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-md-8 col-lg-9">
-                  <h5>Navy Hospital Ship USNS Mercy Deployed to L.A. to Help COVID-19 Patients</h5>
-                  <p>The vessel, which has been docked in San Diego, will now make its way up the West Coast to provide
-                    1,000
-                    beds.</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item">
-                <img
-                  src="https://d.newsweek.com/en/full/1575710/tokyo-2020-coronavirus.webp?w=95&h=95&f=6824cbb15f744728fc0a88501d951e90"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-8">
-                  <h5>Japan's PM Says 'We May Have No Option' but to Consider Postponing Olympics</h5>
-                  <p>Tokyo Olympics organizers and the IOC are under mounting pressure to postpone the Games due the
-                    coronavirus outbreak.</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-5">
-                <img
-                  src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.webp?w=95&h=95&f=070745ab8ef2208b3f6b76bbe55abc8b"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</h5>
-                  <p>The country has reported more than 26,700 confirmed cases of the new coronavirus</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item">
-                <img
-                  src="https://d.newsweek.com/en/full/1575678/angela-merkel.webp?w=95&h=95&f=912a4e403b6a9a348a4f712010af9410"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Angela Merkel Has Entered Quarantine Over Coronavirus Concern</h5>
-                  <p>Even from domestic quarantine, the Chancellor will continue her official business," the German
-                    leader's
-                    spokesperson said</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-5">
-                <img
-                  src="https://d.newsweek.com/en/full/1575662/alexandria-ocasio-cortez.webp?w=95&h=95&f=3799e5dd3152d9b649d5824cc1c163b8"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>AOC: Trump Is 'Going to Cost Lives' by Not Using Defense Production Act</h5>
-                  <p>We cannot wait until people start really dying in large numbers," the progressive Democrat from New
-                    York
-                    warned.</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mb-md-4">
-                <img
-                  src="https://d.newsweek.com/en/full/1575656/steve-mnuchin-coronavirus-economic-stimulus.webp?w=95&h=95&f=06471a18c890c408f2b243fb7269d9fa"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Who Will Receive Coronavirus Economic Relief Benefits? Treasury Sec Details</h5>
-                  <p>Steve Mnuchin laid out how Americans are likely set to receive more than $2 trillion in economic
-                    stimulus
-                    funds that the federal government is dispersing as a "bridge to get through" coronavirus shutdowns.
-                  </p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-5 pt-md-5">
-                <img
-                  src="https://d.newsweek.com/en/full/1574965/walter-ogrod.webp?w=95&h=95&f=ff59f72938b083fa799a88d7736efe8d"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Pennsylvania Court Orders Death Row Inmate Get Coronavirus Test</h5>
-                  <p>Walter Ogrod's lawyers had filed an emergency motion after the 55-year-old developed a high fever,
-                    cough
-                    and had difficulties breathing, but wasn't tested for COVID-19.</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-5">
-                <img
-                  src="https://d.newsweek.com/en/full/1575677/pritzker.webp?w=95&h=95&f=d92cbd3981d7a34644bcf9c6efcb60b0"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Illinois Governor Pritzker Tells Trump to 'Get Off Twitter & Do Your Job'</h5>
-                  <p>"You wasted precious months when you could've taken action to protect Americans & Illinoisans,"
-                    Pritzker
-                    said</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-4">
-                <img
-                  src="https://d.newsweek.com/en/full/1575559/hand-sanitizer.webp?w=95&h=95&f=af5e9935bbff7640af192a9ea3335c17"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Global Coronavirus Death Toll Now Exceeds 11,500</h5>
-                  <p>Hospitals struggle to cope in Italy, bars and restaurants in the U.K. have been closed, and the
-                    European
-                    Union allows member states to spend as much as they need to combat the virus.</p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-5 mb-md-4">
-                <img
-                  src="https://d.newsweek.com/en/full/1575683/cameron-van-der-burgh.webp?w=95&h=95&f=f32400a2feb313f893bde85415bf19ee"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Olympic Champion Swimmer Diagnosed With Coronavirus Calls It 'Worse Virus'</h5>
-                  <p>Cameron van der Burgh, the Olympic gold medalist in the 100-meter breaststroke in 2012 and silver
-                    medalist in 2016, talks about his physical struggles during his 14th day in battling coronavirus.
-                  </p>
-                </div>
-              </article>
-              <article class="col-lg-12 d-flex list-item mt-md-5">
-                <img
-                  src="https://d.newsweek.com/en/full/1575653/mark-desaulnier.webp?w=95&h=95&f=a5f032524f180168dbb027d89c86a6cd"
-                  alt="" class="w-100 h-100 col-md-4 col-lg-3">
-                <div class="col-lg-9">
-                  <h5>Congressman Mark DeSaulnier in Critical Condition With Pneumonia</h5>
-                  <p>The doctors are doing everything they can to care for the Congressman," the representative's office
-                    said
-                    in a statement.</p>
-                </div>
-              </article>
-            </section>
-          </section>
-        </div>
-        <div class="col-lg-4 mt-md-5 mt-lg-1">
-        <section class="col-lg-12 min-content-height sticky-top opinion">
-          <h2>opinion</h2>
-          <article class="col-lg-12 d-flex justify-content-start option-element border-bottom">
-            <div class="col-lg-3 head-shot img1"></div>
-            <div class="col-lg-9">
-              <h5>In Israel, the Pandemic Is a Slow-Motion Car Crash</h5>
-              <p>BY MARC SCHULMAN</p>
-            </div>
-          </article>
-          <article class="col-lg-12 d-flex justify-content-start option-element pt-2 border-bottom">
-            <div class="col-lg-3 head-shot img2"></div>
-            <div class="col-lg-9">
-              <h5>Coronavirus Is Corporations' Chance to Prove Their Worth to Communities</h5>
-              <p>BY ANDREW FORMAN</p>
-            </div>
-          </article>
-          <article class="col-lg-12 d-flex justify-content-start option-element pt-2 border-bottom">
-            <div class="col-lg-3 head-shot img3"></div>
-            <div class="col-lg-9">
-              <h5>Bernie's Campaign Was All Policy. His Values Were a Better Rallying Cry</h5>
-              <p>BY RICHARD E. RUBENSTEIN</p>
-            </div>
-          </article>
-          <article class="col-lg-12 d-flex justify-content-start option-element pt-2 border-bottom">
-            <div class="col-lg-3 head-shot img4"></div>
-            <div class="col-lg-9">
-              <h5>The Ethics of the Coronavirus Crisis Are Muddier Than You Think</h5>
-              <p>BY CHARLIE KIRK</p>
-            </div>
-          </article>
-          <section class="mt-5">
-            <h2>the debate</h2>
-            <article class="col-lg-12 debate d-flex align-items-center justify-content-start flex-wrap pl-lg-0">
-              <img
-                src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
-                alt="" class="w-25 pl-lg-0">
-              <p class="w-75 pl-lg-4">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency
-              </p>
-              <div class="w-100 double-line mt-lg-3 d-flex justify-content-between">
-                <h6>by peter roff</h6>
-                <img
-                  src="https://d.newsweek.com/en/full/1528785/roff-new.webp?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a"
-                  alt="">
-              </div>
-            </article>
-            <article
-              class="col-lg-12 debate blue-color d-flex align-items-center justify-content-start flex-wrap pl-lg-0 mt-lg-5">
-              <img
-                src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.webp?w=397&h=265&f=f90d6b535ea0fcac3ae722c195fdf784"
-                alt="" class="w-25 pl-lg-0">
-              <p class="w-75 pl-lg-4">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency
-              </p>
-              <div class="w-100 double-line mt-lg-3 d-flex justify-content-between">
-                <h6>BY AIMEE ALLISONf</h6>
-                <img
-                  src="https://d.newsweek.com/en/full/1565352/aimee-allison.webp?w=150&h=150&f=ae41d00ed12c8a0c6447a34ea3da29d0"
-                  alt="">
-              </div>
-            </article>
+
             <section>
               <h2>Latest news</h2>
-              <article class="col-lg-12 d-flex list-item latest-news border-top">
+              <article class="col-lg-12 d-flex list-item latest-news border-top mb-2 mb-md-0">
                 <img
                   src="https://d.newsweek.com/en/full/1576083/andres-manuel-lopez-obrador.webp?w=95&h=95&f=06f88959d55ee595b4228bd9e0e3a2e0"
                   alt="" class="w-100 col-md-3 col-lg-4">
@@ -348,7 +546,7 @@
                   <h5>Mexico's President Has No Interest in Bailing Out Big Companies and Banks</h5>
                 </div>
               </article>
-              <article class="col-lg-12 d-flex list-item latest-news border-top">
+              <article class="col-lg-12 d-flex list-item latest-news border-top mb-2">
                 <img
                   src="https://d.newsweek.com/en/full/1054683/rtxw977.webp?w=95&h=95&f=75361f019807cf6d100488e714bd94ed"
                   alt="" class="w-100 h-100 col-md-3 col-lg-4">
@@ -561,91 +759,91 @@
         <div class="icon icon"></div>
         <h2 class="mt-2 ml-2">FEATURED SLIDESHOWS</h2>
       </div>
-      <div class="col-4 mt-md-3">
+      <div class="col-md-4 mt-3 mt-md-3">
         <img
           src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.webp?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
           alt="" class="w-100">
-        <h3 class="h3-featured-slides">Relive the 'Star Wars' Saga at These Filming Locations</h3>
+        <h3 class="h3-featured-slides mt-3">Relive the 'Star Wars' Saga at These Filming Locations</h3>
       </div>
-      <div class="col-4 mt-md-3">
+      <div class="col-md-4 mt-5 mt-md-3">
         <img
           src="https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.webp?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6"
           alt="" class="w-100">
-        <h3 class="h3-featured-slides">Active Volcanoes Around the World That Could Erupt at Any Moment</h3>
+        <h3 class="h3-featured-slides mt-3">Active Volcanoes Around the World That Could Erupt at Any Moment</h3>
       </div>
-      <div class="col-4 mt-md-3">
+      <div class="col-md-4 mt-5 mt-md-3">
         <img
           src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d"
           alt="" class="w-100">
-        <h3 class="h3-featured-slides">Inside the Last Bohemian Apartments of the Storied Hotel Chelsea</h3>
+        <h3 class="h3-featured-slides mt-3">Inside the Last Bohemian Apartments of the Storied Hotel Chelsea</h3>
       </div>
     </div>
-    <section class="row border-top mt-lg-5">
+    <section class="row border-top mt-5">
       <h2 class="col-lg-12 h2-bottom">U.S.</h2>
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <img
           src="https://d.newsweek.com/en/full/1578814/dr-anthony-fauci.webp?w=397&h=265&f=8cc381988d091f6f6cf017ddde5d3b71"
           alt="" class="w-100">
-        <h3 class="h3-us">Fauci wants a national coronavirus stay-at-home order, but Trump doesn't</h3>
+        <h3 class="h3-us mt-2">Fauci wants a national coronavirus stay-at-home order, but Trump doesn't</h3>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <img
           src="https://d.newsweek.com/en/full/1578808/chuck-schumer.webp?w=397&h=265&f=c54caa0d285ee59e379e009921fdd1e1"
           alt="" class="w-100">
-        <h3 class="h3-us">Chuck Schumer Says He's 'Appalled' By Trump's Letter: 'Stop the Pettiness'</h3>
+        <h3 class="h3-us mt-2">Chuck Schumer Says He's 'Appalled' By Trump's Letter: 'Stop the Pettiness'</h3>
       </div>
-      <div class="col-4">
-        <article class="row mb-lg-2">
+      <div class="col-md-4">
+        <article class="d-flex mb-2 justify-content-around p-0">
           <img
             src="https://d.newsweek.com/en/full/1578805/tucker-carlson.webp?w=95&h=95&f=93672ffb2f17bc6dfb7405fc2bde8e6f"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">Tucker Carlson: U.S. Shouldn't Let Medical Experts Make COVID-19 Decisions
+          <p class="w-75 pl-lg-4 p-side-bar p-0" id="side">Tucker Carlson: U.S. Shouldn't Let Medical Experts Make COVID-19 Decisions
           </p>
         </article>
-        <article class="row pt-md-2 pb-md-2 pt-lg-2 pb-lg-2 border-top border-bottom">
+        <article class="d-flex pt-2 pb-2 border-top border-bottom">
           <img
             src="https://d.newsweek.com/en/full/1578799/jared-kushner.webp?w=95&h=95&f=a0223559aa52ded69b52f247b1412ce8"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">Jared Kushner Trends After Speaking at Coronavirus Task Force Briefing</p>
+          <p class="w-75 pl-lg-4 p-side-bar" id="sidee">Jared Kushner Trends After Speaking at Coronavirus Task Force Briefing</p>
         </article>
-        <article class="row mt-md-2 mt-lg-2">
+        <article class="d-flex mt-2 pb-5">
           <img
             src="https://d.newsweek.com/en/full/1575801/senate-democrats-block-coronavirus-stimulus-bill.webp?w=95&h=95&f=62be94c1b8c3ead702e061506261381f"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">Trump Falsely Claims Schumer Has Been MIA in Coronavirus Fight</p>
+          <p class="w-75 pl-lg-4 p-side-bar" id="sideee">Trump Falsely Claims Schumer Has Been MIA in Coronavirus Fight</p>
         </article>
       </div>
     </section>
     <section class="row border-top mt-lg-5">
       <h2 class="col-lg-12 h2-bottom">WORLD</h2>
-      <div class="col-4">
+      <div class="col-md-4">
         <img
           src="https://d.newsweek.com/en/full/1578642/us-army-iraq-military-base-coronavirus.webp?w=397&h=265&f=8808129c69db842dc5167c7fd8fb1608"
           alt="" class="w-100">
-        <h3 class="h3-us">U.S., Iran Prepare for Escalation in Iraq, COVID-19 May Make Conflict Worse</h3>
+        <h3 class="h3-us mt-2">U.S., Iran Prepare for Escalation in Iraq, COVID-19 May Make Conflict Worse</h3>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mt-4 mt-md-0">
         <img
           src="https://d.newsweek.com/en/full/1578753/coronavirus-us.webp?w=397&h=265&f=17455880bad9298ffd0fd323b184543f"
           alt="" class="w-100">
-        <h3 class="h3-us">More Coronavirus Cases in U.S. Than Italy and Spain Combined'</h3>
+        <h3 class="h3-us mt-2">More Coronavirus Cases in U.S. Than Italy and Spain Combined'</h3>
       </div>
-      <div class="col-4">
-        <article class="row mb-2">
+      <div class="col-md-4 mt-4 mt-md-0 ">
+        <article class="d-flex mb-2">
           <img
             src="https://d.newsweek.com/en/full/1578633/coronavirus-death-funeral-ceremony-italy-march-2020.webp?w=95&h=95&f=b1d31c8c7d427d913af0f756436a2f58"
             alt="" class="w-25 image">
           <p class="w-75 pl-lg-4 p-side-bar">Coronavirus Has Killed More Than 50,000 People Around the World
           </p>
         </article>
-        <article class="row pt-2 pb-2 jared-margin">
+        <article class="d-flex pt-2 pb-2 jared-margin">
           <img
             src="https://d.newsweek.com/en/full/1578566/us-iraq-iran-threat-attack-militias-proxies.webp?w=95&h=95&f=d1466c94f63e9a285e6339356cd720b9"
             alt="" class="w-25 image">
           <p class="w-75 pl-lg-4 p-side-bar">Iran Warns That Any U.S. Provocation Will Be Met With 'Fiercest' Response
           </p>
         </article>
-        <article class="row mt-2">
+        <article class="d-flex mt-2">
           <img src="https://d.newsweek.com/en/full/1578565/birmingham.webp?w=95&h=95&f=ca428638c2da1b942f881d9049019218"
             alt="" class="w-25 image">
           <p class="w-75 pl-lg-4 p-side-bar">Man Breaks Into Zoo Restaurant and Helps Himself to Beer During Lockdown
@@ -655,33 +853,33 @@
     </section>
     <section class="row border-top mt-lg-5">
       <h2 class="col-lg-12 h2-bottom">Business</h2>
-      <div class="col-4">
+      <div class="col-md-4">
         <img
           src="https://d.newsweek.com/en/full/1576462/geekey-tool.webp?w=397&h=265&f=d70e57ba430b23e5bbdfa4a85d37df6e"
           alt="" class="w-100">
-        <h3 class="h3-us">The Best April Deals and Sales in Outdoor, Toys & Games and More</h3>
+        <h3 class="h3-us mt-2">The Best April Deals and Sales in Outdoor, Toys & Games and More</h3>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mt-4 mt-md-0">
         <img
           src="https://d.newsweek.com/en/full/1578135/oil-donald-trump-coronavirus-russia-saudi-arabia.webp?w=397&h=265&f=68aa7ffaedd5088cfd3f1c196001f6ab"
           alt="" class="w-100">
-        <h3 class="h3-us">Trump Says Russia and Saudi Arabia Are Discussing End to Oil Price War</h3>
+        <h3 class="h3-us mt-2">Trump Says Russia and Saudi Arabia Are Discussing End to Oil Price War</h3>
       </div>
-      <div class="col-4">
-        <article class="row mb-lg-2">
+      <div class="col-md-4 mt-">
+        <article class="d-flex mb-lg-2">
           <img
             src="https://d.newsweek.com/en/full/1578055/los-angeles-dodgers-baseball-stadium.webp?w=95&h=95&f=9f1969e29492b14dbd6636e5f3b2c760"
             alt="" class="w-25 image">
           <p class="w-75 pl-lg-4 p-side-bar">Some Baseball Players to Get Paid $4,775 Per Day During Pandemic Shutdown
           </p>
         </article>
-        <article class="row pt-lg-2 pb-lg-2 jared-margin">
+        <article class="d-flex pt-lg-2 pb-lg-2 jared-margin">
           <img
             src="https://d.newsweek.com/en/full/1577909/1987-stock-market-crash-dow.webp?w=95&h=95&f=a0ce5133ecc992f35f83e3350e29a3d8"
             alt="" class="w-25 image">
           <p class="w-75 pl-lg-4 p-side-bar">Dow Jones Set to Record Worst Quarter in 33 Years Amid COVID-19 Fears</p>
         </article>
-        <article class="row mt-lg-2">
+        <article class="d-flex mt-lg-2">
           <img
             src="https://d.newsweek.com/en/full/1552314/per-salary-banner.webp?w=95&h=95&l=50&t=43&f=2cff479e92f093034cb41d3d775f998e"
             alt="" class="w-25 image">
@@ -690,110 +888,110 @@
         </article>
       </div>
     </section>
-    <section class="row border-top mt-lg-5">
+    <section class="row border-top mt-lg-5 mb-5">
       <h2 class="col-lg-12 h2-bottom">Tech & Science</h2>
-      <div class="col-4">
+      <div class="col-md-4">
         <img
           src="https://d.newsweek.com/en/full/1578985/methane-worms.webp?w=397&h=265&f=598563ba6e737a3667212f63a4f61444"
           alt="" class="w-100">
-        <h3 class="h3-us">Worms on the Seafloor That Gobble up Methane Through Their Skin Discovered</h3>
+        <h3 class="h3-us mt-2">Worms on the Seafloor That Gobble up Methane Through Their Skin Discovered</h3>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mt-4 mt-md-0">
         <img src="https://d.newsweek.com/en/full/1578989/ngc-4651.webp?w=397&h=265&f=a9aef3665db0bed30fdd4199c5f91905"
           alt="" class="w-100">
-        <h3 class="h3-us">Cannibal 'Umbrella Galaxy' That Ate Neighbor Revealed in Spectacular Pic</h3>
+        <h3 class="h3-us mt-2">Cannibal 'Umbrella Galaxy' That Ate Neighbor Revealed in Spectacular Pic</h3>
       </div>
-      <div class="col-4">
-        <article class="row mb-2">
+      <div class="col-md-4 mt-3 mt-md-0">
+        <article class="d-flex mb-2">
           <img
             src="https://d.newsweek.com/en/full/1578993/american-rombin-gps-tracker.webp?w=95&h=95&f=68f1930d0cbf84ac5a1995af71fbd5b4"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">American Robins Start Their Winter Migration 12 Days Earlier Than In 1994
+          <p class="w-75 pl-lg-4 p-side-bar " id="p-tech">American Robins Start Their Winter Migration 12 Days Earlier Than In 1994
           </p>
         </article>
-        <article class="row pt-2 pb-2 jared-margin">
+        <article class="d-flex pt-2 pb-2 jared-margin">
           <img
             src="https://d.newsweek.com/en/full/1578890/steel-factory-greenhouse-gas-emissions.webp?w=95&h=95&f=7c3f4720dab35dab524a9702202dd3a1"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">COVID-19 Pandemic Could Lead to Fall in CO2 Not Seen Since the End of WWII
+          <p class="w-75 pl-lg-4 p-side-bar" id="p-techh">COVID-19 Pandemic Could Lead to Fall in CO2 Not Seen Since the End of WWII
           </p>
         </article>
-        <article class="row mt-2">
+        <article class="d-flex mt-2">
           <img src="https://d.newsweek.com/en/full/1578899/twitter.webp?w=95&h=95&f=197606c3d720cba328ecf9230bf05e49"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">Twitter Purges Bot Account Network that Used Coronavirus in its Propaganda
+          <p class="w-75 pl-lg-4 p-side-bar " id="p-techhh">Twitter Purges Bot Account Network that Used Coronavirus in its Propaganda
           </p>
         </article>
       </div>
     </section>
-    <section class="row border-top mt-lg-5">
+    <section class="row border-top mt-lg-5 pb-4">
       <h2 class="col-lg-12 h2-bottom">Culture</h2>
-      <div class="col-4">
+      <div class="col-md-4">
         <img
           src="https://d.newsweek.com/en/full/1579058/emma-watson-circle.webp?w=397&h=265&f=c4aebd4fcf872b6628947a5a561a7c45"
           alt="" class="w-100">
-        <h3 class="h3-us">What Movie Ending Ruined the Whole Thing For You?</h3>
+        <h3 class="h3-us mt-2">What Movie Ending Ruined the Whole Thing For You?</h3>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mt-4 mt-md-0">
         <img
           src="https://d.newsweek.com/en/full/1569421/shark-tank-hosts.webp?w=397&h=265&f=a77d089c87837d2bd83bd12a61979598"
           alt="" class="w-100">
-        <h3 class="h3-us">Mark Cuban on Which Stocks Are Buys, Sells and Holds</h3>
+        <h3 class="h3-us mt-2">Mark Cuban on Which Stocks Are Buys, Sells and Holds</h3>
       </div>
-      <div class="col-4">
-        <article class="row mb-2">
+      <div class="col-md-4 mt-4 mt-md-0">
+        <article class="d-flex mb-2">
           <img
             src="https://d.newsweek.com/en/full/1579000/lighthouse-poster.webp?w=95&h=95&f=91255d7b3d72fc616ed8b69616b9e687"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">'The Lighthouse' Is the One Thing You Must Watch on Amazon Prime in April
+          <p class="w-75 pl-lg-4 p-side-bar" id="culture">'The Lighthouse' Is the One Thing You Must Watch on Amazon Prime in April
           </p>
         </article>
-        <article class="row pt-2 pb-2 jared-margin">
+        <article class="d-flex pt-2 pb-2 jared-margin">
           <img
             src="https://d.newsweek.com/en/full/1578983/denise-cantrall.webp?w=95&h=95&f=ef1a802327578d86d2e7e2193e1295bb"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">Suburban Chicago Woman Takes Charge to Support Homeless During COVID-19</p>
+          <p class="w-75 pl-lg-4 p-side-bar" id="culturee">Suburban Chicago Woman Takes Charge to Support Homeless During COVID-19</p>
         </article>
-        <article class="row mt-2">
+        <article class="d-flex mt-2">
           <img
             src="https://d.newsweek.com/en/full/1578988/bill-withers.webp?w=95&h=95&f=d970d95e02301b2d68f5f8f017043bd4"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">Bill Withers: 5 Songs to Remember Him By</p>
+          <p class="w-75 pl-lg-4 p-side-bar" id="cultureee">Bill Withers: 5 Songs to Remember Him By</p>
         </article>
       </div>
     </section>
     <section class="row border-top mt-lg-5">
       <h2 class="col-lg-12 h2-bottom">Sports</h2>
-      <div class="col-4">
+      <div class="col-md-4">
         <img
           src="https://d.newsweek.com/en/full/1292359/braun-strowman-monday-night-raw-wwe.webp?w=397&h=265&f=6c0a2c939dfd46213492c94ba6c5d72a"
           alt="" class="w-100">
-        <h3 class="h3-us">Braun Strowman to Replace Roman Reigns at WrestleMania 36</h3>
+        <h3 class="h3-us mt-2">Braun Strowman to Replace Roman Reigns at WrestleMania 36</h3>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mt-3 mt-md-0">
         <img
           src="https://d.newsweek.com/en/full/1579081/empty-stadium-seats.webp?w=397&h=265&f=72e4cfd0ed96ffbb7e756e468bafe7ee"
           alt="" class="w-100">
-        <h3 class="h3-us">Sports Events Canceled or Postponed by Coronavirus 2020</h3>
+        <h3 class="h3-us mt-2">Sports Events Canceled or Postponed by Coronavirus 2020</h3>
       </div>
-      <div class="col-4">
-        <article class="row mb-2">
+      <div class="col-md-4">
+        <article class="d-flex mb-2">
           <img
             src="https://d.newsweek.com/en/full/1579077/wwe-smackdown-firefly-fun-house-cena-wyatt.webp?w=95&h=95&f=a25e228c82ee7f63e1bfa0b320a17d97"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">'Friday Night SmackDown' Results (4/3): John Cena Returns
+          <p class="w-75 pl-lg-4 p-side-bar" id="sports">'Friday Night SmackDown' Results (4/3): John Cena Returns
           </p>
         </article>
-        <article class="row pt-2 pb-2 jared-margin">
+        <article class="d-flex pt-2 pb-2 jared-margin">
           <img
             src="https://d.newsweek.com/en/full/1579035/wwe-wrestlemania-36-poster.webp?w=95&h=95&f=8caa604efb6871e8a8a08643ccc8f710"
             alt="" class="w-25 image">
-          <p class="w-75 pl-4 p-side-bar">When and How to Watch WrestleMania 36</p>
+          <p class="w-75 pl-4 p-side-bar" id="sportss">When and How to Watch WrestleMania 36</p>
         </article>
-        <article class="row mt-2">
+        <article class="d-flex mt-2">
           <img src="https://d.newsweek.com/en/full/1578230/nba-2k20.webp?w=95&h=95&f=0cd041cbdf03375000c8038bd5858fed"
             alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar">NBA 2K Tournament: Which Players Are Taking Part, Where to Watch on TV</p>
+          <p class="w-75 pl-lg-4 p-side-bar" id="sportsss">NBA 2K Tournament: Which Players Are Taking Part, Where to Watch on TV</p>
         </article>
       </div>
     </section>
@@ -801,28 +999,34 @@
       <section class="col-lg-7 mr-lg-2">
         <h2 class="col-lg-12 h2-bottom">SUBSCRIBE</h2>
         <div class="row greyish pt-3 pb-3">
-          <div class="col-4">
+          <div class="col-md-4">
             <img
               src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg?w=170&q=95&f=e7b6af0ef76e162727acd0141bfc2e8a"
               alt="" class="w-100">
           </div>
-          <div class="col-8 pt-5">
+          <div class="col-md-8 pt-5 d-none d-md-block">
             <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
             <p>All Access + Weekly Delivery.<br>
               Choose A Membership That's Perfect for You!</p>
             <button class="btn btn-primary subscribe p-2 rounded-0 border" type="submit">SUBSCRIBE ></button>
           </div>
+          <div class="col-md-8 pt-5 d-md-none d-flex flex-column justify-content-center align-items-center">
+            <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+            <p>All Access + Weekly Delivery.<br>
+              Choose A Membership That's Perfect for You!</p>
+            <button class="btn btn-primary subscribe p-2 rounded-0 border" id="mobile-btn" type="submit">SUBSCRIBE</button>
+          </div>
         </div>
       </section>
-      <section class="col-lg-4 ml-lg-2">
+      <section class="col-lg-4 ml-lg-2 pb-3">
         <h2 class="col-lg-12 h2-bottom">NEWSLETTER</h2>
         <div class="row border">
-          <div class="col-6 newsletter-img">
+          <div class="col-md-6 newsletter-img">
           </div>
-          <div class="col-6 pt-5">
+          <div class="col-md-6 pt-5 d-flex flex-column align-items-center">
             <h3>The Starting 5</h3>
-            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-            <button class="btn btn-primary subscribe p-2 rounded-0 p-0 border" type="submit">SIGN UP ></button>
+            <p id="newsletter-p">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+            <button class="btn btn-primary subscribe p-2 rounded-0 p-0 border" type="submit" id="newsletter-btn">SIGN UP ></button>
           </div>
         </div>
       </section>
