@@ -268,6 +268,7 @@ h6 {
 
 .greyish {
   background-color: #f4f5f6;
+  height: 387px;
 }
 
 .h2-subscribe {
@@ -307,4 +308,10 @@ footer div div svg {
 
 .footer-list ul li:hover {
   color: black;
+}
+
+.second-image {
+  bottom: 334px;
+  left: 19px;
+  height: 355px;
 }
