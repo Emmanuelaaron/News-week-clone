@@ -115,3 +115,9 @@
     height: 38px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .bg-red {
+    height: 70px;
+  }
+}

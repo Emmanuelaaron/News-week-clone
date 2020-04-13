@@ -17,7 +17,7 @@
 
 <body class="container">
   <header class="row border-bottom">
-    <div class="d-flex col-12 pt-md-2 pb-md-3 pt-lg-5 pb-lg-3 bg-red justify-content-around flex-nowrap">
+    <div class="d-flex col-12 pt-md-2 pb-md-3 pt-xl-5 pb-xl-3 bg-red justify-content-around flex-nowrap sticky-top">
       <div class="col-4 d-none d-lg-flex align-items-center">Thu, Mar 19, 2020</div>
       <div class="col-sm-6 col-md-4 col-lg-4 color">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -32,12 +32,12 @@
       <div class="col-sm-6 pip col-md-8 col-lg-4 d-flex justify-content-end align-items-center pb-lg-1">
         <button class="btn pr-lg-1 sign-in">SIGNIN</button>
         <button class="btn btn-primary rounded-0 border subscribe-btn"><span class="pl-0">SUBSCRIBE</span></button>
-        <div class="d-md-block d-lg-none">
+        <div class="d-md-block d-xl-none">
           <i class="material-icons">menu</i>
         </div>
       </div>
     </div>
-    <div class="col-lg-10 d-none d-lg-block">
+    <div class="col-lg-10 disappear d-none d-xl-block">
       <ul class="col-lg-12 mr-2 d-flex justify-content-between list-bk-color mt-1">
         <li class="nav-item">
           <a href="#" class="nav-link border-right">U.S.</a>
@@ -74,8 +74,8 @@
         </li>
       </ul>
     </div>
-    <input type="text" placeholder="Search" class="col-lg-1 search-input mt-lg-2 d-none d-lg-block">
-    <div class="col-lg- trapezium d-none d-lg-block"></div>
+    <input type="text" placeholder="Search" class="col-lg-1 search-input mt-lg-2 d-none d-xl-block">
+    <div class="col-lg- trapezium d-none d-xl-block"></div>
   </header>
   <main class="container-fluid mt-md-4 p-0">
     <div class="row">
@@ -83,9 +83,12 @@
         <section id="feature-stories" class="col-sm-12 col-md-5 col-lg-4 min-content-height sticky-top p-0">
           <h2>FEATURED STORIES</h2>
           <div>
+            <div>
             <img
               src="https://d.newsweek.com/en/full/1575707/coronavirus.jpg?w=397&h=265&q=90&f=9d411f587ddecef5bee8f0f99ca54eaf"
               alt="" class="w-100">
+              <p class="col-5 position-relative d-block topic p-2 text-center">WORLD</p>
+            </div>
             <h3 class="h3-feature-story">COVID-19 Pandemic Could Cost U.S. $7 Trillion, Professor Estimates</h3>
             <p class="p-feature-story">"Without vigorous steps, the CDC estimates the COVID-19 will infect 70 to 150
               million Americans,"
@@ -93,9 +96,12 @@
               Hicks tells Newsweek. "This would have enormous economic costs."</p>
           </div>
           <div>
+            <div>
             <img
               src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg?w=397&h=265&q=90&f=899960ae2e480fbe4b567b095d603d01"
               alt="" class="w-100">
+              <p class="col-4 position-relative d-block topic p-2 text-center">U.S</p>
+            </div>
             <h3 class="h3-feature-story">Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid Coronavirus</h3>
             <p class="p-feature-story">Ohio's order mandating all residents stay at home will be implemented Monday
               evening at 11.59 p.m.
@@ -103,9 +109,12 @@
               time, and is scheduled to end on April 6.</p>
           </div>
           <div>
+            <div>
             <img
               src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg?w=397&h=265&q=90&f=6f09981a0ba49e99cd98b49fdd5ff2c8"
               alt="" class="w-100">
+              <p class="col-5 position-relative d-block topic p-2 text-center">WORLD</p>
+              </div>
             <h3 class="h3-feature-story">Rand Paul Tests Positive for Coronavirus</h3>
             <p class="p-feature-story">He expects to be back in the Senate after his quarantine period ends," according
               to the Kentucky
@@ -116,9 +125,12 @@
         <section id="top-stories" class="d-none d-md-block d-lg-block col-md-7 col-lg-8">
           <h2>top Story</h2>
           <div>
+            <div>
             <img
               src="https://d.newsweek.com/en/full/1575696/donald-trump.jpg?w=591&h=364&f=c4a7be2fe03204b5fb5327dde00d07c9"
               alt="" class="w-100">
+              <p class="col-2 position-relative d-block topic p-2 text-center">News</p>
+            </div>
             <h3>Trump Announces Activation of the National Guard in Worst-Hit COVID-19 States</h3>
             <p>The federal government has deployed hundreds of tons of supplies from our national stockpile to
               locations
@@ -160,7 +172,7 @@
           </section>
           <section id="more-stories" class="row">
             <h2 class="col-lg-12">more stories</h2>
-            <div class="col-lg-12 d-flex list-item mb-md-4">
+            <div class="col-lg-12 d-flex list-item mb-md-2 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575712/usns-mercy.jpg?w=95&h=95&f=9a1d7c17368b531a164e9b8d04f845d8"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -171,7 +183,7 @@
                   beds.</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item">
+            <div class="col-lg-12 d-flex list-item border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575710/tokyo-2020-coronavirus.webp?w=95&h=95&f=6824cbb15f744728fc0a88501d951e90"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -181,7 +193,7 @@
                   coronavirus outbreak.</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-5">
+            <div class="col-lg-12 d-flex list-item mt-md-5 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.webp?w=95&h=95&f=070745ab8ef2208b3f6b76bbe55abc8b"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -190,7 +202,7 @@
                 <p>The country has reported more than 26,700 confirmed cases of the new coronavirus</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item">
+            <div class="col-lg-12 d-flex list-item border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575678/angela-merkel.webp?w=95&h=95&f=912a4e403b6a9a348a4f712010af9410"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -201,7 +213,7 @@
                   spokesperson said</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-5 mb-md-5">
+            <div class="col-lg-12 d-flex list-item mt-md-5 mb-md-5 mb-lg-3 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575662/alexandria-ocasio-cortez.webp?w=95&h=95&f=3799e5dd3152d9b649d5824cc1c163b8"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -212,7 +224,7 @@
                   warned.</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mb-md-4">
+            <div class="col-lg-12 d-flex list-item mb-md-4 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575656/steve-mnuchin-coronavirus-economic-stimulus.webp?w=95&h=95&f=06471a18c890c408f2b243fb7269d9fa"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -224,7 +236,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-5 mb-md-5 pt-md-5">
+            <div class="col-lg-12 d-flex list-item mt-md-3 mb-md-5 mb-lg-2 pt-md-3 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1574965/walter-ogrod.webp?w=95&h=95&f=ff59f72938b083fa799a88d7736efe8d"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -235,7 +247,7 @@
                   and had difficulties breathing, but wasn't tested for COVID-19.</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-5">
+            <div class="col-lg-12 d-flex list-item mt-md-5 mt-lg-3 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575677/pritzker.webp?w=95&h=95&f=d92cbd3981d7a34644bcf9c6efcb60b0"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -246,7 +258,7 @@
                   said</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-4">
+            <div class="col-lg-12 d-flex list-item mt-md-4 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575559/hand-sanitizer.webp?w=95&h=95&f=af5e9935bbff7640af192a9ea3335c17"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -257,7 +269,7 @@
                   Union allows member states to spend as much as they need to combat the virus.</p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-5 mb-md-4">
+            <div class="col-lg-12 d-flex list-item mt-md-5 mb-md-4 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575683/cameron-van-der-burgh.webp?w=95&h=95&f=f32400a2feb313f893bde85415bf19ee"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -268,7 +280,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-12 d-flex list-item mt-md-5">
+            <div class="col-lg-12 d-flex list-item mt-md-5 border-top">
               <img
                 src="https://d.newsweek.com/en/full/1575653/mark-desaulnier.webp?w=95&h=95&f=a5f032524f180168dbb027d89c86a6cd"
                 alt="" class="w-100 h-100 col-md-4 col-lg-3">
@@ -926,23 +938,23 @@
         <div class="d-flex mb-2">
           <img
             src="https://d.newsweek.com/en/full/1578993/american-rombin-gps-tracker.webp?w=95&h=95&f=68f1930d0cbf84ac5a1995af71fbd5b4"
-            alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar " id="p-tech">American Robins Start Their Winter Migration 12 Days Earlier
+            alt="" class=" image">
+          <p class=" pl-lg-4 p-side-bar ml-md-2" id="p-tech">American Robins Start Their Winter Migration 12 Days Earlier
             Than In 1994
           </p>
         </div>
         <div class="d-flex pt-2 pb-2 jared-margin">
           <img
             src="https://d.newsweek.com/en/full/1578890/steel-factory-greenhouse-gas-emissions.webp?w=95&h=95&f=7c3f4720dab35dab524a9702202dd3a1"
-            alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar" id="p-techh">COVID-19 Pandemic Could Lead to Fall in CO2 Not Seen Since
+            alt="" class="image">
+          <p class=" pl-lg-4 p-side-bar ml-md-2" id="p-techh">COVID-19 Pandemic Could Lead to Fall in CO2 Not Seen Since
             the End of WWII
           </p>
         </div>
         <div class="d-flex mt-2">
           <img src="https://d.newsweek.com/en/full/1578899/twitter.webp?w=95&h=95&f=197606c3d720cba328ecf9230bf05e49"
-            alt="" class="w-25 image">
-          <p class="w-75 pl-lg-4 p-side-bar " id="p-techhh">Twitter Purges Bot Account Network that Used Coronavirus
+            alt="" class=" image">
+          <p class="pl-lg-4 p-side-bar ml-md-2" id="p-techhh">Twitter Purges Bot Account Network that Used Coronavirus
             in its Propaganda
           </p>
         </div>
