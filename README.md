@@ -3,7 +3,7 @@
 > This is  a clone of [Newsweek](https://www.newsweek.com/).
 > It uses Twitter's bootstrap framework
 
-![screenshot](./img/display.PNG)
+![screenshot](img/Display.PNG)
 
 ## Built With
 
