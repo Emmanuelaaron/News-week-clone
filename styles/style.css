@@ -243,3 +243,15 @@ h6 {
   width: 48%;
   height: 321px;
 }
+
+footer div div svg {
+  fill: #f72210;
+  width: 236px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
