@@ -7,10 +7,6 @@
     height: max-content;
   }
 
-  .sign-up-section {
-    margin: 0 auto;
-  }
-
   article .image,
   .border-top div .image {
     min-width: 90px;
@@ -21,22 +17,12 @@
     max-width: 140px;
     margin-left: 10px;
   }
-
-  .disappear,
-  .search-input,
-  .trapezium {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .btn-primary {
     max-width: 72px;
     font: bold 11px/7px "Roboto Condensed", sans-serif;
-  }
-
-  .bg-red {
-    justify-content: space-between;
   }
 
   .h3-top-story,
@@ -117,7 +103,6 @@
   }
 
   .newsletter-img {
-    width: 100%;
     height: 172px;
   }
 
