@@ -45,6 +45,10 @@ header {
   width: 90px;
 }
 
+.my-img {
+  height: 259px;
+}
+
 .sign-in {
   font-size: 18px;
   color: #fff;
@@ -230,7 +234,7 @@ h6 {
 }
 
 .greyish {
-  background-color: rgb(228, 224, 224);
+  background-color: #f4f5f6;
 }
 
 .h2-subscribe {
@@ -241,7 +245,7 @@ h6 {
 .newsletter-img {
   background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
   width: 48%;
-  height: 321px;
+  height: 363px;
 }
 
 footer div div svg {
@@ -263,6 +267,9 @@ footer div div svg {
 .footer-list ul {
   list-style: none;
   cursor: pointer;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .footer-list ul li:hover {
