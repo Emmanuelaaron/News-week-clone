@@ -5,7 +5,6 @@
 
 ![screenshot](./img/display.PNG)
 
-
 ## Built With
 
 - HTML,
