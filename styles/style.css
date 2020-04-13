@@ -255,3 +255,16 @@ footer div div svg {
   text-transform: uppercase;
   color: #666;
 }
+
+.social-icons {
+  color: #666;
+}
+
+.footer-list ul {
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer-list ul li:hover {
+  color: black;
+}
