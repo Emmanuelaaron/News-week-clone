@@ -18,6 +18,10 @@
     margin-left: 10px;
   }
 
+  .my-img {
+    height: 170px;
+  }
+
   .header {
     width: 100%;
   }
@@ -151,5 +155,13 @@
 @media screen and (max-width: 1024px) {
   .bg-red {
     height: 70px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  main {
+    padding-top: 91px;
   }
 }
