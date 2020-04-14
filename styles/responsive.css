@@ -39,6 +39,10 @@
   .greyish {
     height: 322px;
   }
+
+  .lst-footer-list {
+    line-height: 32px;
+  }
 }
 
 @media screen and (max-width: 320px) {
