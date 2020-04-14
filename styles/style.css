@@ -14,6 +14,7 @@ body {
 
 header {
   color: #fff;
+  background-color: white;
 }
 
 .btn-primary {
@@ -325,10 +326,6 @@ footer div div svg {
 
 main {
   padding-top: 200px;
-}
-
-header {
-  background-color: white;
 }
 
 .double-img-mobile {
