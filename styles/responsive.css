@@ -17,12 +17,42 @@
     max-width: 140px;
     margin-left: 10px;
   }
+
+  .my-img {
+    height: 170px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  main {
+    padding-top: 90px;
+  }
+
+  .second-image {
+    bottom: 202px;
+    left: 59px;
+    height: 226px;
+  }
+
+  .greyish {
+    height: 322px;
+  }
+
+  .lst-footer-list {
+    line-height: 32px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .btn-primary {
     max-width: 72px;
     font: bold 11px/7px "Roboto Condensed", sans-serif;
+  }
+
+  main {
+    padding-top: 71px;
   }
 
   .h3-top-story,
@@ -114,10 +144,28 @@
     max-width: 105px;
     height: 38px;
   }
+
+  .greyish {
+    height: 567px;
+  }
+
+  .second-image {
+    bottom: 216px;
+    left: 59px;
+    height: 234px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .bg-red {
     height: 70px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  main {
+    padding-top: 91px;
   }
 }
