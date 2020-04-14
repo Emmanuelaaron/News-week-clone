@@ -16,9 +16,12 @@
 </head>
 
 <body class="container">
-  <header class="row border-bottom">
+  <header class="row border-bottom position-fixed header">
     <div class="d-flex col-12 pt-md-2 pb-md-3 pt-xl-5 pb-xl-3 bg-red justify-content-around flex-nowrap sticky-top">
-      <div class="col-4 d-none d-lg-flex align-items-center">Thu, Mar 19, 2020</div>
+      <div class="col-4 d-none d-lg-flex flex-column">
+        <p><i class="fas fa-cloud-sun-rain fa-lg"></i> 25° Luuka ></p>
+        <p> Thu, Mar 19, 2020</p>
+      </div>
       <div class="col-sm-6 col-md-4 col-lg-4 color">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
@@ -77,7 +80,7 @@
     <input type="text" placeholder="Search" class="col-lg-1 search-input mt-lg-2 d-none d-xl-block">
     <div class="col-lg- trapezium d-none d-xl-block"></div>
   </header>
-  <main class="container-fluid mt-md-4 p-0">
+  <main class="container-fluid">
     <div class="row">
       <div class="d-flex col-sm-12 col-lg-8 feat order-2 order-md-0">
         <section id="feature-stories" class="col-sm-12 col-md-5 col-lg-4 min-content-height sticky-top p-0">
@@ -1038,22 +1041,22 @@
     <div class="d-flex border-top mt-lg-5 justify-content-between flex-wrap flex-lg-nowrap p-0">
       <section id="subscribe" class="mr-lg-2 p-0">
         <h2 class="col-lg-12 h2-bottom pl-0">SUBSCRIBE</h2>
-        <div class="d-flex greyish pt-3 pb-0 flex-wrap">
+        <div class="d-flex greyish pt-md-5 pb-0 flex-wrap">
           <div class="col-12 col-md-4">
             <img
               src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg?w=170&q=95&f=e7b6af0ef76e162727acd0141bfc2e8a"
-              alt="" class="w-100">
+              alt="" class="w-75">
             <img
               src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8"
-              alt="" class="w-100 position-relative second-image">
+              alt="" class="w-75 position-relative second-image">
           </div>
-          <div class="col-md-8 pt-5 d-none d-md-block">
+          <div class="col-md-8 pt-5 pt-md-0 d-none d-md-block">
             <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
             <p>All Access + Weekly Delivery.<br>
               Choose A Membership That's Perfect for You!</p>
             <button class="btn btn-primary subscribe p-2 rounded-0 border" type="submit">SUBSCRIBE ></button>
           </div>
-          <div class="col-md-8 pt-5 d-md-none d-flex flex-column justify-content-center align-items-center">
+          <div class="col-md-8 pt-5 d-md-none d-flex flex-column justify-content-center align-items-center position-relative double-img-mobile">
             <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
             <p>All Access + Weekly Delivery.<br>
               Choose A Membership That's Perfect for You!</p>
