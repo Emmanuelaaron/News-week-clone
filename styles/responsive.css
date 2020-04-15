@@ -22,10 +22,6 @@
     height: 170px;
   }
 
-  .header {
-    width: 100%;
-  }
-
   main {
     padding-top: 90px;
   }
@@ -170,7 +166,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 320px) {
   .header {
     width: 100%;
   }

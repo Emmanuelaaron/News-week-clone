@@ -21,6 +21,8 @@ header {
   background-color: #fff;
   color: #f72210;
   width: 150px;
+  height: 33px;
+  padding: 0;
 }
 
 .list-bk-color {
