@@ -43,6 +43,10 @@
   .lst-footer-list {
     line-height: 32px;
   }
+
+  #more-stories .list-item {
+    margin-bottom: 90px;
+  }
 }
 
 @media screen and (max-width: 320px) {
