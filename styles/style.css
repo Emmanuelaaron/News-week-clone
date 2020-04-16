@@ -340,3 +340,7 @@ main {
   max-width: 125px;
   min-width: 125px;
 }
+
+#latest-news div img {
+  max-width: 20px;
+}
