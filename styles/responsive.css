@@ -39,6 +39,14 @@
   #more-stories .list-item {
     margin-bottom: 90px;
   }
+
+  div .footer-svg {
+    flex-direction: column;
+  }
+
+  footer .upper-footer {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -146,6 +154,10 @@
     left: 59px;
     height: 234px;
   }
+
+  .footer-list ul li {
+    border-right: none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -162,8 +174,4 @@
   .header {
     width: 100%;
   }
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
- 
 }
