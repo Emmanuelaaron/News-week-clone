@@ -32,10 +32,6 @@
     height: 226px;
   }
 
-  .greyish {
-    height: 322px;
-  }
-
   .lst-footer-list {
     line-height: 32px;
   }
@@ -145,10 +141,6 @@
     height: 38px;
   }
 
-  .greyish {
-    height: 567px;
-  }
-
   .second-image {
     bottom: 216px;
     left: 59px;
@@ -170,4 +162,8 @@
   .header {
     width: 100%;
   }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+ 
 }
