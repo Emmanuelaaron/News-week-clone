@@ -333,3 +333,10 @@ main {
 .double-img-mobile {
   bottom: 252px;
 }
+
+#more-stories-mobile-view div div img {
+  max-height: 91px;
+  min-height: 91px;
+  max-width: 125px;
+  min-width: 125px;
+}
