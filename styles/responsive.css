@@ -32,16 +32,20 @@
     height: 226px;
   }
 
-  .greyish {
-    height: 322px;
-  }
-
   .lst-footer-list {
     line-height: 32px;
   }
 
   #more-stories .list-item {
     margin-bottom: 90px;
+  }
+
+  div .footer-svg {
+    flex-direction: column;
+  }
+
+  footer .upper-footer {
+    flex-direction: column;
   }
 }
 
@@ -145,14 +149,14 @@
     height: 38px;
   }
 
-  .greyish {
-    height: 567px;
-  }
-
   .second-image {
     bottom: 216px;
     left: 59px;
     height: 234px;
+  }
+
+  .footer-list ul li {
+    border-right: none;
   }
 }
 

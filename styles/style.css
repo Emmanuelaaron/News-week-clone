@@ -272,7 +272,6 @@ h6 {
 
 .greyish {
   background-color: #f4f5f6;
-  height: 367px;
 }
 
 .h2-subscribe {
@@ -332,4 +331,15 @@ main {
 
 .double-img-mobile {
   bottom: 252px;
+}
+
+#latest-news div img {
+  max-width: 20px;
+}
+
+#more-stories-mobile-view div div img {
+  max-height: 91px;
+  min-height: 91px;
+  max-width: 125px;
+  min-width: 125px;
 }
