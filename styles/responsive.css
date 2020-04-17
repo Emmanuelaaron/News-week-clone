@@ -13,23 +13,8 @@
     max-height: 90px;
   }
 
-  .border-top div p {
-    max-width: 140px;
-    margin-left: 10px;
-  }
-
-  .my-img {
-    height: 170px;
-  }
-
   main {
     padding-top: 90px;
-  }
-
-  .second-image {
-    bottom: 202px;
-    left: 59px;
-    height: 226px;
   }
 
   .lst-footer-list {
@@ -136,10 +121,6 @@
     height: 38px;
   }
 
-  .newsletter-img {
-    height: 172px;
-  }
-
   #newsletter-p {
     max-width: none;
   }
@@ -147,12 +128,6 @@
   #newsletter-btn {
     max-width: 105px;
     height: 38px;
-  }
-
-  .second-image {
-    bottom: 216px;
-    left: 59px;
-    height: 234px;
   }
 
   .footer-list ul li {
