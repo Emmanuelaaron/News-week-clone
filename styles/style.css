@@ -314,9 +314,7 @@ footer div div svg {
 }
 
 .second-image {
-  bottom: 244px;
-  left: 59px;
-  height: 267px;
+  right: 108px;
 }
 
 .header {
@@ -327,10 +325,6 @@ footer div div svg {
 
 main {
   padding-top: 200px;
-}
-
-.double-img-mobile {
-  bottom: 252px;
 }
 
 #latest-news div img {
