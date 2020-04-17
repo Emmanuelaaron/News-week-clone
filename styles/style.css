@@ -1,0 +1,336 @@
+.container {
+  margin: 0 auto;
+  max-width: 1303px;
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+header {
+  color: #fff;
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #f72210;
+  width: 150px;
+  height: 33px;
+  padding: 0;
+}
+
+.list-bk-color {
+  background-color: #fff;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 auto;
+}
+
+.list-bk-color li {
+  list-style: none;
+}
+
+.search-input {
+  background-image: url('https://g.newsweek.com/www/images/icon-search-glass.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: 24px 24px;
+  height: 32px;
+  border: none;
+  width: 90px;
+  background-color: white;
+}
+
+.sign-in {
+  font-size: 18px;
+  color: #fff;
+}
+
+h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.list-item {
+  height: 134px;
+  padding: 20px 0;
+}
+
+svg {
+  fill: #fff;
+}
+
+.trapezium {
+  color: black;
+  width: 108px;
+  border-top: #f72210 15px solid;
+  border-left: #fff 20px solid;
+}
+
+.option-element {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  line-height: 20px;
+}
+
+.option-element div h5 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.option-element div p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.head-shot {
+  width: 63px;
+  height: 63px;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url('https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569');
+}
+
+.img2 {
+  background-image: url('https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832');
+}
+
+.img3 {
+  background-image: url('https://d.newsweek.com/en/full/1575395/richard-rubenstein.webp?w=63&h=63&f=8b87758ea9d3bff05635e4e4ff170093');
+}
+
+.img4 {
+  background-image: url('https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410');
+}
+
+.debate {
+  border-top: rgb(231, 17, 60) 6px solid;
+}
+
+.blue-color {
+  border-top: rgb(107, 184, 209) 6px solid;
+}
+
+.debate img {
+  max-width: 133px;
+  height: 95px;
+}
+
+.double-line {
+  border-top: grey double 5px;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+.double-line img {
+  width: 75px;
+  height: 75px;
+  margin-top: -20px;
+}
+
+.icon {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.sign-up-section {
+  background-color: #f4f5f6;
+}
+
+.sign-up-btn {
+  background-color: #666;
+  border: none;
+  color: aliceblue;
+}
+
+.min-content-height {
+  height: min-content;
+}
+
+.magazine h2 {
+  color: black;
+}
+
+.h3-magazine {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  background-color: white;
+  color: #f72210;
+}
+
+.cover {
+  background-color: #f72210;
+  color: white;
+}
+
+.topic {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 32px;
+}
+
+#culture-travel h4 {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  cursor: pointer;
+}
+
+#culture-travel p {
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+#more-stories p {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.h3-editors-pick,
+.h3-featured-slides,
+.h3-us {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.h2-bottom {
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.p-side-bar {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.p-side-bar:hover {
+  color: #f72210;
+}
+
+.subscribe {
+  background-color: #f72210;
+  color: #fff;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+}
+
+.subscribe:hover {
+  background-color: #f72210;
+}
+
+.greyish {
+  background-color: #f4f5f6;
+}
+
+.h2-subscribe {
+  background-color: white;
+  width: 100%;
+}
+
+.newsletter-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  width: 48%;
+  height: 274px;
+}
+
+footer div div svg {
+  fill: #f72210;
+  width: 236px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.social-icons {
+  color: #666;
+}
+
+.footer-list ul {
+  list-style: none;
+  cursor: pointer;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.footer-list ul li:hover {
+  color: black;
+}
+
+.second-image {
+  right: 108px;
+}
+
+.header {
+  z-index: 2000;
+  top: 0;
+  max-width: 1300px;
+}
+
+main {
+  padding-top: 200px;
+}
+
+#latest-news div img {
+  max-width: 133px;
+  min-width: 133px;
+}
+
+#more-stories-mobile-view div div img {
+  max-height: 91px;
+  min-height: 91px;
+  max-width: 125px;
+  min-width: 125px;
+}

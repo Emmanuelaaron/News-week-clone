@@ -1,0 +1,152 @@
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .min-content-height {
+    height: max-content;
+  }
+
+  article .image,
+  .border-top div .image {
+    min-width: 90px;
+    max-height: 90px;
+  }
+
+  main {
+    padding-top: 90px;
+  }
+
+  .lst-footer-list {
+    line-height: 32px;
+  }
+
+  #more-stories .list-item {
+    margin-bottom: 90px;
+  }
+
+  div .footer-svg {
+    flex-direction: column;
+  }
+
+  footer .upper-footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-primary {
+    max-width: 72px;
+    font: bold 11px/7px "Roboto Condensed", sans-serif;
+  }
+
+  main {
+    padding-top: 71px;
+  }
+
+  .h3-top-story,
+  .h3-feature-story {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .sign-in {
+    font-size: 12px;
+  }
+
+  .p-feature-story,
+  .p-top-story {
+    font-size: 13px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h5 {
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .option-element div h5 {
+    font: bold 15px/19px "Roboto Condensed", sans-serif;
+    margin-left: 20px;
+  }
+
+  .head-shot {
+    width: 78px;
+  }
+
+  .option-element div p {
+    line-height: 1px;
+  }
+
+  .debate img {
+    min-width: 104px;
+  }
+
+  #smaller,
+  #smallerr {
+    min-width: 78px;
+  }
+
+  .h3-editors-pick {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .h3-featured-slides,
+  .h3-us {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  #side,
+  #sidee,
+  #sideee,
+  #p-tech,
+  #p-techh,
+  #p-techhh,
+  #culture,
+  #culturee,
+  #cultureee,
+  #sports,
+  #sportss,
+  #sportsss {
+    max-width: none;
+    line-height: 18px;
+    font-size: 15px;
+  }
+
+  #mobile-btn {
+    max-width: 116px;
+    height: 38px;
+  }
+
+  #newsletter-p {
+    max-width: none;
+  }
+
+  #newsletter-btn {
+    max-width: 105px;
+    height: 38px;
+  }
+
+  .footer-list ul li {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-red {
+    height: 70px;
+  }
+
+  main {
+    padding-top: 91px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .header {
+    width: 100%;
+  }
+}
